@@ -54,11 +54,18 @@ export class MyPmsComponent {
     }
   ]
 
-  constructor(){
-    console.log('i m herdfsdfe');
-  }
-  onInit(){
-    console.log('i m here');
+  // constructor(){
+  //   console.log('i m herdfsdfe');
+  // }
+  // onInit(){
+  //   console.log('i m here');
 
+  // }
+
+  assessAreaId = 0 ;
+  getAssessmentAreaCount(areaId : number){
+    this.assessAreaId = areaId ;
+     var assessmentAreaCount = this.assessmentList.filter(item => item.assessmentAreaId == areaId).length
+     return assessmentAreaCount
   }
 }

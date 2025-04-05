@@ -16,8 +16,12 @@
             <!-- {{ }} -->
             <!-- <ng-container *ngFor="let assessmentGroup of assessmentList"> -->
                 
-                <tr *ngFor="let item of assessmentList; ">
-                    <td>{{ item.assessmentArea }} {{item.weight}}%</td>
+                <tr *ngFor="let item of assessmentList;">
+                    @if (assessAreaId != item.assessmentAreaId) {
+                        var areaCount = getAssessmentAreaCount(item.assessmentAreaId);
+                        <!-- assessAreaId = item.assessmentAreaId -->
+                        <td  [attr.rowspan]=getAssessmentAreaCount(item.assessmentAreaId) class="border-r">{{ item.assessmentArea }} {{item.weight}}%</td>
+                    } 
                     <td>{{ item.assessmentPoint }}</td>
                     <td>
                         <select class="select select-sm w-32">
