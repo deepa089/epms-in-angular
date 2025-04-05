@@ -1,0 +1,13 @@
+.rowItem {
+    width: 100%;
+    /* float: left; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.rowItem:hover{
+    background-color: #ebeced !important ;
+    cursor: pointer;
+}
+
+.text-11px {
+    font-size: 11px !important;
+}

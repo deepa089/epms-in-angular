@@ -1,0 +1,46 @@
+<div class="my-5 mx-5 relative">
+    <div class="flex gap-4 p-2">
+        <div class="w-1/2">
+            <div class="flex gap-4">
+                <!-- <div class="flex items-stretch"> -->
+                    <div id="contentBox1" (click)="navigateToRoute('/mypms')" class="clickable-div rounded-xl bg-white lg:w-1/3 md:w-1/2 sm:w-full contentBox {*ngIf visibleDivId != 'contentBox1' ? h-fit : '' }">
+                        <div class="px-4 pt-4">
+                            <div class="flex gap-2 pb-4" (click)="toggle('contentBox1')">
+                                <img src="./images/settings.png" />
+                                <div class="text-11px">My PMS</div>
+                            </div>
+                        </div>
+                        <div class="clickable-div bg-gray-300 h-6" (click)="toggle('contentBox1')" style="cursor: pointer;">
+                        </div>
+                
+                    </div>
+                    <div id="contentBox2" (click)="navigateToRoute('/teamPms')"  class="clickable-div rounded-xl bg-white lg:w-1/3 md:w-1/2 sm:w-full contentBox {*ngIf visibleDivId != 'contentBox2' ? h-fit : '' }">
+                        <div class="px-4 pt-4">
+                            <div class="flex gap-2 pb-4" (click)="toggle('contentBox2')">
+                                <img class="w-10 h-10" src="./images/teams.png" />
+                                <div class="text-11px">Team's PMS</div>
+                            </div>                                      
+                        </div>
+                        <div class="clickable-div bg-gray-300 h-6" (click)="toggle('contentBox2')" style="cursor: pointer;">
+                        </div>
+                
+                    </div>
+                    <div id="contentBox3" (click)="navigateToRoute('/teamPms')"  class="clickable-div rounded-xl bg-white lg:w-1/3 md:w-1/2 sm:w-full contentBox {*ngIf visibleDivId != 'contentBox2' ? h-fit : '' }">
+                        <div class="px-4 pt-4">
+                            <div class="flex gap-2 pb-4" (click)="toggle('contentBox3')">
+                                <img class="w-10 h-10" src="./images/teams.png" />
+                                <div class="text-11px">360 Degree <br/> Feedback</div>
+                            </div>                                      
+                        </div>
+                        <div class="clickable-div bg-gray-300 h-6" (click)="toggle('contentBox3')" style="cursor: pointer;">
+                        </div>
+                
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="w-1/2 h-96">
+            <h2>Pending List</h2>
+        </div>
+    </div> 
+</div>

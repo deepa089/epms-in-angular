@@ -1,0 +1,109 @@
+<div>
+    <h1 class="font-semibold border-b-2 text-2xl border-gray-400">Self Evaluation</h1>
+    <!-- <table class="bg-white my-4"> -->
+    <table class="table bg-white">
+        <thead>
+            <tr>
+                <th class="w-1/12">Assessment Area / Weight % of area <br />
+                    <span style="font-size: 10px;">(The higher the % is, more important it is for your role)</span>
+                </th>
+                <th class="w-3/6 text-left px-4">Specific Assessment Point</th>
+                <th class="w-1/12 text-left px-4">Employee <br /> Rating</th>
+                <th class="w-2/6 text-left px-4">Employee Remarks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- {{ }} -->
+            <!-- <ng-container *ngFor="let assessmentGroup of assessmentList"> -->
+                
+                <tr *ngFor="let item of assessmentList; ">
+                    <td>{{ item.assessmentArea }} {{item.weight}}%</td>
+                    <td>{{ item.assessmentPoint }}</td>
+                    <td>
+                        <select class="select select-sm w-32">
+                            <option disabled selected>Select Ratings</option>
+                            <option [value]="0">0</option>
+                            <option [value]="1">1</option>
+                            <option [value]="2">2</option>
+                            <option [value]="3">3</option>
+                            <option [value]="4">4</option>
+                            <option [value]="5">5</option>
+                        </select>
+                    </td>
+                    <td>
+                        <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
+                    </td>
+                </tr>
+            <!-- </ng-container> -->
+        </tbody>
+        <!-- <tbody>
+            <tr>
+                <td class="text-left px-4 border-r border-gray-100" rowspan="4">Problem-Solving and Initiative 20%</td>
+                <td class="text-left px-4">How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5) </td>
+                <td class="text-left px-4">
+                    <select class="select select-sm w-32">
+                        <option disabled selected>Select Ratings</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                </td>
+                <td class="text-left px-4">
+                    <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
+                </td>
+            </tr><tr>
+                <td class="text-left px-4">How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5) </td>
+                <td class="text-left px-4">
+                    <select class="select select-sm w-32">
+                        <option disabled selected>Select Ratings</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                </td>
+                <td class="text-left px-4">
+                    <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
+                </td>
+            </tr><tr>
+                <td class="text-left px-4">How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5) </td>
+                <td class="text-left px-4">
+                    <select class="select select-sm w-32">
+                        <option disabled selected>Select Ratings</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                </td>
+                <td class="text-left px-4">
+                    <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
+                </td>
+            </tr><tr>
+                <td class="text-left px-4">How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5) </td>
+                <td class="text-left px-4">
+                    <select class="select select-sm w-32">
+                        <option disabled selected>Select Ratings</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                </td>
+                <td class="text-left px-4">
+                    <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
+                </td>
+            </tr>
+        </tbody> -->
+    </table>
+</div>
+<!-- <router-outlet></router-outlet> -->
