@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import assessmentData from '../../../../public/assessmentList.json';
 
 @Component({
   selector: 'app-my-pms',
@@ -9,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class MyPmsComponent {
 
-  assessmentList = [
+  /* assessmentList = [
     {
       "assessmentId": 1,
       "assessmentAreaId": 1,
@@ -52,7 +53,10 @@ export class MyPmsComponent {
       "weight": 20,
       "assessmentPoint": "How many times have you taken the lead on a task or project without being asked in the last year? (None = 1, 1-2 = 3, 3+ = 5)"
     }
-  ]
+  ] ; */
+
+
+    assessmentList = assessmentData ;
 
   // constructor(){
   //   console.log('i m herdfsdfe');

@@ -5,10 +5,11 @@ import { PmsDashboardComponent } from "./dashboard/pms-dashboard/pms-dashboard.c
 import { BracitPmsDashboardComponent } from "./dashboard/bracit-pms-dashboard/bracit-pms-dashboard.component";
 import { routes } from './app-routing.module';
 import { MyPmsComponent } from "./pms/my-pms/my-pms.component";
+import { TeamPmsComponent } from "./pms/team-pms/team-pms.component";
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, MyPmsComponent],
+  imports: [HeaderComponent, MyPmsComponent, TeamPmsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
   // standalone: true

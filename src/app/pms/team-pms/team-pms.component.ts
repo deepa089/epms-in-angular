@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import assessmentData from '../../../../public/assessmentList.json';
+
 
 @Component({
   selector: 'app-team-pms',
@@ -7,5 +9,12 @@ import { Component } from '@angular/core';
   styleUrl: './team-pms.component.css'
 })
 export class TeamPmsComponent {
+  assessmentList = assessmentData ;
+  assessAreaId = 0 ;
+  getAssessmentAreaCount(areaId : number){
+    this.assessAreaId = areaId ;
+     var assessmentAreaCount = this.assessmentList.filter(item => item.assessmentAreaId == areaId).length
+     return assessmentAreaCount
+  }
 
 }
