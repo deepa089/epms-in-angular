@@ -4,125 +4,179 @@
     "assessmentAreaId": 1,
     "assessmentArea": "Functional/Technical Proficiency",
     "weight": 25,
-    "assessmentPoint": "How often do you successfully complete assigned tasks without requiring rework? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How often do you successfully complete assigned tasks without requiring rework? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 2,
     "assessmentAreaId": 1,
     "assessmentArea": "Functional/Technical Proficiency",
     "weight": 25,
-    "assessmentPoint": "How many new tools, technologies, or methodologies have you learned and applied in your role in the last 12 months? (None = 0, 3 = 3, 5+ = 5)"
+    "assessmentPoint": "How many new tools, technologies, or methodologies have you learned and applied in your role in the last 12 months? (None = 0, 3 = 3, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 5,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 3,
     "assessmentAreaId": 1,
     "assessmentArea": "Functional/Technical Proficiency",
     "weight": 25,
-    "assessmentPoint": "How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How frequently do you meet or exceed the expected technical/functional standards of your role? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 4,
     "assessmentAreaId": 2,
     "assessmentArea": "Problem-Solving and Initiative",
     "weight": 20,
-    "assessmentPoint": "How many process or task improvements have you suggested in the last quarter? (None = 0, 5 = 5+)"
+    "assessmentPoint": "How many process or task improvements have you suggested in the last quarter? (None = 0, 5 = 5+)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 5,
     "assessmentAreaId": 2,
     "assessmentArea": "Problem-Solving and Initiative",
     "weight": 20,
-    "assessmentPoint": "How often do you independently resolve issues before escalation is required? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How often do you independently resolve issues before escalation is required? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 6,
     "assessmentAreaId": 2,
     "assessmentArea": "Problem-Solving and Initiative",
     "weight": 20,
-    "assessmentPoint": "How many times have you taken the lead on a task or project without being asked in the last year? (None = 1, 1-2 = 3, 3+ = 5)"
+    "assessmentPoint": "How many times have you taken the lead on a task or project without being asked in the last year? (None = 1, 1-2 = 3, 3+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 7,
     "assessmentAreaId": 3,
     "assessmentArea": "Operational Efficiency and Quality of Work",
     "weight": 20,
-    "assessmentPoint": "What percentage of your deliverables were submitted on or before the deadline in the last 3 months? (Rate yourself proportionately out of 100% where 0% = 0 and 100% = 5)"
+    "assessmentPoint": "What percentage of your deliverables were submitted on or before the deadline in the last 3 months? (Rate yourself proportionately out of 100% where 0% = 0 and 100% = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 5,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 8,
     "assessmentAreaId": 3,
     "assessmentArea": "Operational Efficiency and Quality of Work",
     "weight": 20,
-    "assessmentPoint": "How often do your deliverables pass quality checks without needing revisions? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How often do your deliverables pass quality checks without needing revisions? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 9,
     "assessmentAreaId": 3,
     "assessmentArea": "Operational Efficiency and Quality of Work",
     "weight": 20,
-    "assessmentPoint": "How often have you observed or been told about positive recognition or appreciation for the quality of your work in the last year? Mention specific ones. (None = 0, 4-6 = 3, 10+ = 5)"
+    "assessmentPoint": "How often have you observed or been told about positive recognition or appreciation for the quality of your work in the last year? Mention specific ones. (None = 0, 4-6 = 3, 10+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 2,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 10,
     "assessmentAreaId": 4,
     "assessmentArea": "Collaboration and Communication",
     "weight": 15,
-    "assessmentPoint": "How do you contribute to a collaborative team environment? Provide examples."
+    "assessmentPoint": "How do you contribute to a collaborative team environment? Provide examples.",
+    "employeeId" : 1,
+    "employeeRating" : 3,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 11,
     "assessmentAreaId": 4,
     "assessmentArea": "Collaboration and Communication",
     "weight": 15,
-    "assessmentPoint": "How many collaborative tasks or projects have you contributed to in the last Year? (None = 0, 3 = 3, 5+ = 5)"
+    "assessmentPoint": "How many collaborative tasks or projects have you contributed to in the last Year? (None = 0, 3 = 3, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 12,
     "assessmentAreaId": 4,
     "assessmentArea": "Collaboration and Communication",
     "weight": 15,
-    "assessmentPoint": "How many times have you supported or mentored a team member in the last Year? (None = 1, 3-5 = 3, 5+ = 5)"
+    "assessmentPoint": "How many times have you supported or mentored a team member in the last Year? (None = 1, 3-5 = 3, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 13,
     "assessmentAreaId": 5,
     "assessmentArea": "Learning and Development",
     "weight": 10,
-    "assessmentPoint": "How many training sessions, workshops, or certifications have you completed in the last year? Please provide the certificates/proofs if needed. (None = 0, 3 = 3, 5+ = 5)"
+    "assessmentPoint": "How many training sessions, workshops, or certifications have you completed in the last year? Please provide the certificates/proofs if needed. (None = 0, 3 = 3, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 14,
     "assessmentAreaId": 5,
     "assessmentArea": "Learning and Development",
     "weight": 10,
-    "assessmentPoint": "How many new skills or tools have you learned and applied to your work in the last year? (None = 0, 3 = 3, 5+ = 5)"
+    "assessmentPoint": "How many new skills or tools have you learned and applied to your work in the last year? (None = 0, 3 = 3, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 15,
     "assessmentAreaId": 5,
     "assessmentArea": "Learning and Development",
     "weight": 10,
-    "assessmentPoint": "How often do you dedicate time to self-directed learning or skill improvement? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How often do you dedicate time to self-directed learning or skill improvement? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 2,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 16,
     "assessmentAreaId": 6,
     "assessmentArea": "Leadership and Ownership",
     "weight": 10,
-    "assessmentPoint": "How many new tasks/projects have you taken full ownership of in the last quarter? (None = 1, 1-2 = 3, 3+ = 5)"
+    "assessmentPoint": "How many new tasks/projects have you taken full ownership of in the last quarter? (None = 1, 1-2 = 3, 3+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 4,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 17,
     "assessmentAreaId": 6,
     "assessmentArea": "Leadership and Ownership",
     "weight": 10,
-    "assessmentPoint": "How many critical decisions have you made or contributed to in your role in the last 6 months? Please mention the specific ones. (None = 0, 5+ = 5)"
+    "assessmentPoint": "How many critical decisions have you made or contributed to in your role in the last 6 months? Please mention the specific ones. (None = 0, 5+ = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 5,
+    "employeeRemarks" : "test test test test test"
   },
   {
     "assessmentId": 18,
     "assessmentAreaId": 6,
     "assessmentArea": "Leadership and Ownership",
     "weight": 10,
-    "assessmentPoint": "How often do you follow through and complete tasks without external reminders? (Rarely = 1, Always = 5)"
+    "assessmentPoint": "How often do you follow through and complete tasks without external reminders? (Rarely = 1, Always = 5)",
+    "employeeId" : 1,
+    "employeeRating" : 3,
+    "employeeRemarks" : "test test test test test"
   }
 ]

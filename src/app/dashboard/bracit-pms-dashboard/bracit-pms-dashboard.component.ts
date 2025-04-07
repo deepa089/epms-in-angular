@@ -15,15 +15,11 @@ constructor(private router : Router){}
   isVisible = false;
   toggle(divId : string) {
     this.visibleDivId = divId
-    // if(){
-
-    // }
     this.isVisible = !this.isVisible;
   }
 
   navigateToRoute(urlLink : string){
     // this.isVisible = !this.isVisible;
-    console.log(urlLink);
-    this.router.navigate(['/mypms']);
+    this.router.navigate(['/' + urlLink]);
   }
 }

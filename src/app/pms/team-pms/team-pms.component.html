@@ -10,27 +10,39 @@
             </tr>
         </thead>
         <tbody>
-            <!-- <tr *ngFor="let item of assessmentList;">
-                @if (assessAreaId != item.assessmentAreaId) {
-                <td [attr.rowspan]=getAssessmentAreaCount(item.assessmentAreaId) class="border-r border-gray-100">{{
-                    item.assessmentArea }} {{item.weight}}%</td>
-                }
-                <td>{{ item.assessmentPoint }}</td>
-                <td>
-                    <select class="select select-sm w-32">
-                        <option disabled selected>Select Ratings</option>
-                        <option [value]="0">0</option>
-                        <option [value]="1">1</option>
-                        <option [value]="2">2</option>
-                        <option [value]="3">3</option>
-                        <option [value]="4">4</option>
-                        <option [value]="5">5</option>
-                    </select>
+            <tr>
+                <td><a [routerLink]="['/assessments', 1]" routerLinkActive="router-link-active"  (click)="empAssessmentDetails(1)" class="hover:underline cursor-pointer"> Employee 1 </a></td>
+                <td>Lead SQ Engineer</td>
+                <td>Unit</td>
+                <td>Status</td>
+            </tr>
+            <tr>
+                <td> 
+                    <!-- <a href="/assessments/1" target="_blank">Supervisee 1 (New Tab)</a> -->
+                    <a (click)="empAssessmentDetails(1)" class="hover:underline cursor-pointer"> Employee 2 </a>
                 </td>
-                <td>
-                    <textarea class="textarea w-full" placeholder="to be filled by you"></textarea>
-                </td>
-            </tr> -->
+                <td>Support Engineer</td>
+                <td>Unit</td>
+                <td>Status</td>
+            </tr>
+            <tr>
+                <td><a (click)="empAssessmentDetails(1)" class="hover:underline cursor-pointer"> Employee 3 </a></td>
+                <td>Lead Software Engineer</td>
+                <td>Unit</td>
+                <td>Status</td>
+            </tr>
+            <tr>
+                <td><a (click)="empAssessmentDetails(1)" class="hover:underline cursor-pointer"> Employee 4 </a></td>
+                <td>Lead Software Engineer</td>
+                <td>Software Engineering</td>
+                <td>Status</td>
+            </tr>
+            <tr>
+                <td><a (click)="empAssessmentDetails(1)" class="hover:underline cursor-pointer"> Employee 5 </a></td>
+                <td>Sr. Software Engineer</td>
+                <td>Software Engineering</td>
+                <td>Status</td>
+            </tr>
         </tbody>
     </table>
 </div>
