@@ -7,6 +7,7 @@ import { EmpAssessmentComponent } from "./pms/emp-assessment/emp-assessment.comp
 import { BracitPmsDashboardComponent } from "./dashboard/bracit-pms-dashboard/bracit-pms-dashboard.component";
 import { PmsGroupSetupComponent } from "./pms/setup/pms-group-setup/pms-group-setup.component";
 import { PmsAssessmentSetupComponent } from "./pms/setup/pms-assessment-setup/pms-assessment-setup.component";
+import { PmsQuestionComponent } from "./pms/setup/pms-question/pms-question.component";
 
 export const routes : Routes = [
     {path : '', redirectTo : '', pathMatch : 'full'},
@@ -16,6 +17,7 @@ export const routes : Routes = [
     {path : 'assessments/:id', component : EmpAssessmentComponent},
     {path : 'pmsGroupSetup', component : PmsGroupSetupComponent},
     {path : 'assessmentSetup', component : PmsAssessmentSetupComponent},
+    {path : 'yearWiseQuestion', component : PmsQuestionComponent},
 ]
 
 @NgModule({
